@@ -17,7 +17,6 @@
 import jinja2
 import os
 import webapp2
-from pages import pages_list
 
 env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 
