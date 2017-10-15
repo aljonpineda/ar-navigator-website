@@ -114,5 +114,17 @@ body {
     text-align: center;
     color: white;
     background-color: #3e3942;
+    padding: 20px;
+}
+
+.about-container {
+    background-color: #f2f2f2;
     padding: 5px;
+    text-align: center;
+    font-size: 26px;
+}
+
+#group-pic {
+    width: 50%;
+    height: 50%;
 }
