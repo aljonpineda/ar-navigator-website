@@ -22,7 +22,7 @@ env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        template = env.get_template('index.html')
+        template = env.get_template('main.html')
         self.response.out.write(template.render())
 
 app = webapp2.WSGIApplication([
